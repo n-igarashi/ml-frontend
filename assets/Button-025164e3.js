@@ -1,0 +1,5 @@
+import{e as l,j as c,L as p}from"./index-445d451c.js";var a={exports:{}};/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/(function(e){(function(){var o={}.hasOwnProperty;function n(){for(var s=[],i=0;i<arguments.length;i++){var t=arguments[i];if(t){var u=typeof t;if(u==="string"||u==="number")s.push(this&&this[t]||t);else if(Array.isArray(t))s.push(n.apply(this,t));else if(u==="object"){if(t.toString!==Object.prototype.toString&&!t.toString.toString().includes("[native code]")){s.push(t.toString());continue}for(var r in t)o.call(t,r)&&t[r]&&s.push(this&&this[r]||r)}}}return s.join(" ")}e.exports?(n.default=n,e.exports=n):window.classNames=n})()})(a);var f=a.exports;const m=l(f),b="_button_1rksi_1",h={button:b,"size--medium":"_size--medium_1rksi_5","size--large":"_size--large_1rksi_9"},x=m.bind(h),v=({size:e="medium",to:o,backgroundColor:n,children:s,...i})=>{const t=x(["button",e&&`size--${e}`]);return c.jsx("button",{type:"button",className:t,style:{backgroundColor:n},...i,children:o?c.jsx(p,{to:o,children:s}):s})};export{v as B};
