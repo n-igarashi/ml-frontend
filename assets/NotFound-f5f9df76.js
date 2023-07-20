@@ -1,0 +1,1 @@
+import{j as o,L as e}from"./index-960916c4.js";const s=()=>o.jsxs("div",{children:[o.jsx("h1",{children:"404 - Not found"}),o.jsx("p",{children:"The page you were looking for was not found."}),o.jsx(e,{href:"/",children:o.jsx("button",{children:"Go to home"})})]});export{s as default};
